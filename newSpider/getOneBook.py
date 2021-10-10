@@ -30,7 +30,7 @@ class getBook():
         if self.isRecive(text):
             html = etree.HTML(text.content)
             # 判断是否存在该文件夹
-            self.isFolderExist('./'+self.dic['Aname'])
+            self.isFolderExist('./爬取内容存储/'+self.dic['Aname'])
             charpters = html.xpath('//div[@id="box2"]/ul/li')
             # 创建协程的任务列表
             gaventList = []
