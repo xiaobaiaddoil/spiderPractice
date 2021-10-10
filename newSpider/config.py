@@ -1,0 +1,1 @@
+urlOrgin = 'https://m.xyyuedu.com'
